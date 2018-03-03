@@ -137,7 +137,9 @@ i, em, s, ins, del, b {
 .dn-nav .logo {
     width: 98px;
     height: 45px;
-    background-color: #fff;
+    background-image: url('../images/common/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-top: 32px;
 }
 .dn-nav .nav-items {
@@ -193,7 +195,6 @@ i, em, s, ins, del, b {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background: red;
     position: absolute;
     right:16px;
     top:7px;
@@ -244,6 +245,7 @@ i, em, s, ins, del, b {
 }
 .dn-bottom .bottom-main {
     margin-top: 15px;
+    padding: 10px 0;
     height: 210px;
     border-top: 1px solid rgba(255, 255, 255, 0.26);
     border-bottom: 1px solid rgba(255, 255, 255, 0.26);    
@@ -283,14 +285,14 @@ i, em, s, ins, del, b {
     width: 560px; 
     height: 210px;  
     position: relative;
-    background: red;
+    /*background: red;*/
 }
 .dn-bottom .bottom-main  .main-right .code img{
     float: left;
     margin-right: 30px;
     width: 201px;
     height: 201px;
-    margin-top: 2px;
+    margin-top: 5px;
 }
 .dn-bottom .bottom-main  .main-right .code .top img {
     margin-top: 20px;
@@ -299,8 +301,9 @@ i, em, s, ins, del, b {
 }
 .dn-bottom .bottom-main  .main-right .code .bottom img {
     margin-top: 20px;
-    width: 228px;
-    height: 91px;
+    margin-left: 20px;
+    width: 210px;
+    height: 77px;
 }
 .dn-bottom .bottom-copy {
     width: 700px;
@@ -314,6 +317,54 @@ i, em, s, ins, del, b {
 }
 .dn-bottom .bottom-copy a:hover{   
     color: #d92328;
+}
+
+/*常用图标*/
+.dn-icon {
+    display: inline-block;    
+    background-image: url('../images/common/dn-icon.png');
+    background-repeat: no-repeat ;
+    background-size: 228px 79px;
+}
+.dn-icon.icon-juediqiusheng {
+    width: 28px;
+    height: 28px;
+    background-position: -80px 0px;
+}
+.dn-icon.icon-wangzherongyao {
+    width: 28px;
+    height: 28px;
+    background-position: -160px 0px;
+}
+.dn-icon.icon-news {
+    width: 28px;
+    height: 28px;
+    background-position: -40px 0px;
+}
+.dn-icon.icon-recommend {
+    width: 28px;
+    height: 28px;
+    background-position: -122px 0px;
+}
+.dn-icon.icon-anchor {
+    width: 28px;
+    height: 28px;
+    background-position: 0px 0px;
+}
+.dn-icon.icon-learn {
+    width: 28px;
+    height: 28px;
+    background-position: -200px 0px;
+}
+.dn-icon.icon-hot {
+    width: 14px;
+    height: 18px;
+    background-position: -50px -54px;
+}
+.dn-icon.icon-search {
+    width: 16px;
+    height: 16px;
+    background-position: -80px -54px;
 }
 
 
