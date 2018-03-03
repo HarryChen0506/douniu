@@ -3,9 +3,16 @@
 /*首页主体*/
 .dn-index-wrap {
     position: relative;
-    height: 1000px;
 }
-/*首页通用样式*/
+    /*首页通用样式-start*/
+.dn-index-wrap .more {
+    float: right;
+    font-size: 14px;
+    color: #999;    
+}
+.dn-index-wrap .more:hover {
+    color: #d92328;
+}
 .dn-index-wrap .title {
     position: relative;
     padding-left: 38px;
@@ -24,7 +31,14 @@
 	height: 28px;
 	background-color: blue;
 }
-
+.dn-index-wrap .index-center {
+    position: relative;
+    z-index: 2;
+    width: 1200px;
+    margin: 0 auto;   
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 .dn-index-wrap .index-bg {
     position: absolute;
     left: 0;
@@ -34,6 +48,7 @@
     background: #333 url('../images/index-bg.jpg') top center no-repeat;
     z-index: 1;
 }
+        /*首页通用样式-end*/
 /*视频*/
 .dn-index-wrap .index-main {
     position: relative;
@@ -136,12 +151,10 @@
     margin-top:20px;  
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    /*background: #fff;*/
 }
 
 .index-game .game-classify {
     width: 585px;
-    /*background: red;*/
     overflow: hidden;
 }
 .index-game .game-classify .text-wrap {
@@ -224,5 +237,304 @@
     left: 7px;
     background: blue;
 }
+/*活动推荐*/
+.dn-index-wrap .index-activity {
+    position: relative;
+    z-index: 2;
+    width: 1200px;
+    margin: 0 auto;  
+    margin-top:20px;  
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.dn-index-wrap .activity-wrap {
+    margin-top:20px;
+}
+.index-activity .activity-left img {
+    width: 586px;
+    height: 321px;
+    border-radius: 6px;
+}
+.index-activity .activity-middle {
+    margin-left: 28px;
+}
+.index-activity .activity-middle img {
+    width: 184px;
+    height: 321px;
+    border-radius: 6px;
+}
+.index-activity .activity-right .bottom {
+    margin-top: 27px;
+}
+.index-activity .activity-right  img{
+    width: 375px;
+    height: 147px;
+    border-radius: 6px;
+}
+/*资讯*/
+.dn-index-wrap .index-news {
+    margin-top: 32px;
+    width: 785px;
+    height: 386px;
+    padding: 10px 20px 10px 20px;
+    background: #fff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.index-news .news-item {
+    font-size: 13px;
+    color: #333;
+    height: 28px;
+    line-height: 28px;
+}
+.index-news .news-item .news-content {
+    display: inline-block;
+    width: 600px;
+    height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.index-news .news-item .news-content a {
+     color: #333;    
+}
+.index-news .news-item .news-content a:hover {
+    color: #d92328;
+}
+.index-news .news-item .news-time {
+    float: right
+}
+/*游戏推荐*/
+.dn-index-wrap .index-recommend {
+    margin-top: 32px;
+    width: 384px;
+    height: 386px;
+    padding: 15px 16px 16px 16px;
+    background: #fff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.index-recommend .tab-nav-item {
+    display: inline-block;
+    width: 115px;
+	height: 31px;
+    line-height: 31px;
+    text-align: center;
+    font-size: 16px;
+    background: #e7e7e7;
+}
+.index-recommend .tab-nav-item:hover,
+.index-recommend .tab-nav-item.active {
+    background: #d92328;
+    color: #fff;
+}
+.index-recommend .tab-pannel-wrap {
+    margin-top: 18px;
+}
+.index-recommend .tab-pannel-wrap .tab-pannel-item {
+    display: none;
+}
+.index-recommend .tab-pannel-wrap .tab-pannel-item.active {
+    display: block;
+}
+.index-recommend .tab-pannel-item .item-box {
+    margin-bottom: 15px;
+}
+.index-recommend .tab-pannel-item .item-left img{
+    width: 122px;
+	height: 92px;
+}
+.index-recommend .tab-pannel-item  .item-right {
+    width: 215px;
+    height: 92px;
+    position: relative;
+    /*background: red*/
+}
+.index-recommend .tab-pannel-item  .item-right .header{ 
+    height: 28px;  
+	font-size: 16px;
+    font-weight: 700;	
+	line-height: 28px;
+	color: #333333;
+}
+.index-recommend .tab-pannel-item  .item-right .text{ 
+    height: 20px;  
+	font-size: 13px;	
+	line-height: 20px;
+	color: #999;
+}
+.index-recommend .tab-pannel-item  .item-right .button {
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 73px;
+	height: 27px;
+	background-color: #fcdcdc;
+	border-radius: 4px;
+	border: solid 1px #d92328;
+    color: #d92328;
+}
+/*bannner*/
+.dn-index-wrap .index-banner {
+    margin-top: 32px;
+}
+.dn-index-wrap .index-banner img{
+    width: 100%;
+    height: 107px;
+}
 
+/*主播*/
+.dn-index-wrap .index-anchor {
+    margin-top: 32px;
+    width: 785px;
+    height: 673px;
+    padding: 10px 20px 10px 20px;
+    background: #fff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.index-anchor .tab-nav-item {
+    display: inline-block;
+    width: 115px;
+	height: 31px;
+    line-height: 31px;
+    text-align: center;
+    font-size: 16px;
+    background: #e7e7e7;
+}
+/*微博*/
+.dn-index-wrap .index-weibo {
+    margin-top: 32px;
+    width: 384px;
+    height: 673px;
+    background: #fff;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: rgb(67,67,67)
+}
+/*电竞时刻*/
+.dn-index-wrap .index-learn {
+    margin-top:20px;
+}
+.dn-index-wrap .index-learn .learn-wrap {
+    margin-top:10px;
+}
+.dn-index-wrap .index-learn .top-left {
+    width: 591px;
+    height: 429px;
+}
+.dn-index-wrap .index-learn .top-right {
+    width: 591px;
+    height: 429px;
+}
+.dn-index-wrap .index-learn .top-right-bottom {
+    margin-top: 15px;
+}
+.dn-index-wrap .index-learn .learn-bottom {
+    margin-top: 15px;
+}
+.dn-index-wrap .index-learn .learn-bottom li {
+    margin-right: 15px
+}
+.dn-index-wrap .index-learn .learn-bottom li:last-child {
+    margin-right: 0px;
+}
+.index-learn .learn-main {
+    width: 591px;
+    height: 429px;
+    background: red;
+}
+.index-learn .learn-main .main-wrap {
+    width: 591px;
+    height: 429px;
+    position: relative;
+}
+.index-learn .learn-main .main-wrap img {
+    width: 591px;
+    height: 429px;
+}
+.index-learn .learn-main .main-content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	height: 82px;
+	background-color: rgba(0, 0, 0, 0.38);
+}
+.index-learn .learn-main .main-content .text {
+    padding: 0 20px;
+    font-size: 22px;	
+	line-height: 60px;
+    overflow: hidden;    
+	color: #fff;
+}
+.index-learn .learn-main .main-content .read {    
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #fff;
+}
+.index-learn .learn-main .main-content .read i {
+    display: inline-block;
+    width: 10px;
+    height: 14px;
+    position: absolute;
+    top:2px;
+    left: 7px;
+    background: blue;
+}
 
+.index-learn .learn-item {
+    width: 288px;
+    height: 207px;
+    background: yellow;
+}
+.index-learn .learn-item .item-wrap {
+    width: 288px;
+    height: 207px;
+}
+.index-learn .learn-item .item-wrap img {
+    width: 288px;
+    height: 157px;
+}
+.index-learn .learn-item .item-wrap .item-content {    
+    position: relative;
+    width: 100%;
+	height: 50px;
+	background-color: #fff;
+}
+.index-learn .learn-item .item-wrap .item-content .text {
+    padding: 0 9px;
+    font-size: 14px;	
+	line-height: 30px;
+    overflow: hidden;    
+	color: #333;
+}
+.index-learn .learn-item:hover .item-wrap .item-content .text {
+     color: #d92328;
+}
+.index-learn .learn-item .item-wrap .item-content  .read {    
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #666;
+}
+.index-learn .learn-item:hover .item-wrap .item-content  .read {
+     color: #d92328;
+}
+.index-learn .learn-item .item-wrap .item-content  .read i {
+    display: inline-block;
+    width: 10px;
+    height: 14px;
+    position: absolute;
+    top:2px;
+    left: 7px;
+    background: blue;
+}
