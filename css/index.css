@@ -41,7 +41,7 @@
 .dn-index-wrap .index-bg {
     position: absolute;
     left: 0;
-    top: -310px;
+    top: -243px;
     width: 100%;
     height: 1000px;
     background: url('../images/common/index-bg.png') top center no-repeat;
@@ -55,7 +55,7 @@
     width: 1200px;
     height: 605px;  
     margin: 0 auto;
-    margin-top: 300px;    
+    margin-top: 38px;    
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     /*background: #fff;*/
@@ -330,7 +330,7 @@
 }
 .index-recommend .tab-nav-item {
     display: inline-block;
-    width: 115px;
+    width: 113px;
 	height: 31px;
     line-height: 31px;
     text-align: center;

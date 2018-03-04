@@ -209,7 +209,7 @@ i, em, s, ins, del, b {
 
 .dn-nav {
     position: relative;
-    z-index: 2;
+    z-index: 3;
     width: 100%;
     height: 110px;
     background-image: url('../images/common/newtopbg.png');   
