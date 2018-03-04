@@ -48,7 +48,7 @@ table {
 }
 
 body {
-    font: 12px/150% Arial, Helvetica, sans-serif, "\5b8b\4f53";	/*宋体，Unicode，统一码      (修改) */
+    font: 12px/150% "Microsoft YaHei", Arial, Helvetica, sans-serif, "\5b8b\4f53";	/*宋体，Unicode，统一码      (修改) */
     color: #666;
     /*background: #F9F9F9;*/
     background-color: #e5e5e5;
