@@ -563,6 +563,9 @@ i, em, s, ins, del, b {
     border-radius: 3px;
     font-family: "Microsoft Yahei";
 }
+.dn-login-wrap .login-box .login-main{
+    padding-bottom: 20px;
+}
 .dn-login-wrap .login {
     position: relative;
     padding: 10px 20px;

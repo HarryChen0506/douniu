@@ -289,30 +289,41 @@
     margin-top: 32px;
     width: 785px;
     height: 386px;
-    padding: 10px 20px 10px 20px;
+    padding: 20px 20px 10px 20px;
     background: #fff;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     overflow: hidden;
 }
+.index-news .news-wrap {
+   margin-top: 10px;
+}
 .index-news .news-item {
-    font-size: 13px;
+    font-size: 16px;
     color: #333;
-    height: 28px;
-    line-height: 28px;
+    height: 30px;
+    line-height: 30px;
+}
+.index-news .news-item.hot {
+    color: #d92328;
+}
+.index-news .news-item.hot .news-content a {
+    color: #d92328;
 }
 .index-news .news-item .news-content {
     display: inline-block;
-    width: 600px;
-    height: 28px;
+    padding-left: 10px;
+    width: 580px;
+    height: 30px;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 .index-news .news-item .news-content a {
-     color: #333;    
+     color: #333;   
 }
 .index-news .news-item .news-content a:hover {
     color: #d92328;
+    text-decoration: underline;
 }
 .index-news .news-item .news-time {
     float: right
@@ -322,7 +333,7 @@
     margin-top: 32px;
     width: 384px;
     height: 386px;
-    padding: 15px 16px 16px 16px;
+    padding: 15px 10px 16px 16px;
     background: #fff;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -330,7 +341,7 @@
 }
 .index-recommend .tab-nav-item {
     display: inline-block;
-    width: 113px;
+    width: 115px;
 	height: 31px;
     line-height: 31px;
     text-align: center;
@@ -402,7 +413,7 @@
     margin-top: 32px;
     width: 785px;
     height: 673px;
-    padding: 10px 20px 10px 20px;
+    padding: 20px 20px 10px 20px;
     background: #fff;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
